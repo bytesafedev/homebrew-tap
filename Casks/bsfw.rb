@@ -3,7 +3,7 @@ cask "bsfw" do
   name "bsfw"
   desc "Bytesafe Firewall CLI — inspect firewalls, query logs, manage config as code"
   homepage "https://github.com/bytesafedev/bsfw"
-  version "0.3.0"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,12 +19,12 @@ cask "bsfw" do
     on_intel do
       url "https://github.com/bytesafedev/bsfw/releases/download/v#{version}/bsfw_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/bytesafedev/bsfw"
-      sha256 "c5fe8f8e93e44d4209059c8ac61f2a07f13b8bc11daa4b80d6347fe5e0bfadbc"
+      sha256 "473b1bce7f527b130fd336c3e97344bcb8a15fa7cfa84274e0909e218d0542df"
     end
     on_arm do
       url "https://github.com/bytesafedev/bsfw/releases/download/v#{version}/bsfw_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/bytesafedev/bsfw"
-      sha256 "ba08757ae1831061e1c1e6c423fffe7007685352d50e020f245ec40a7a840e38"
+      sha256 "157cb040ef7f9c5d794006792f8a455de6c2af978917c0fc0f644d309d5a0ec0"
     end
   end
 
@@ -32,12 +32,12 @@ cask "bsfw" do
     on_intel do
       url "https://github.com/bytesafedev/bsfw/releases/download/v#{version}/bsfw_#{version}_linux_amd64.tar.gz",
         verified: "github.com/bytesafedev/bsfw"
-      sha256 "53d218f51f9192420187a17482e0ad04e262110b6d0503307da12cb141569bdc"
+      sha256 "a2bb2563d7bb6f8df79ba5c604a1f6131dffb98c02d51f9cabc642d8b4be69ca"
     end
     on_arm do
       url "https://github.com/bytesafedev/bsfw/releases/download/v#{version}/bsfw_#{version}_linux_arm64.tar.gz",
         verified: "github.com/bytesafedev/bsfw"
-      sha256 "2fc7d2012fc85af27bbd54e1fbb3bc8ad97474df893e56a0054838b09da1c7af"
+      sha256 "dd8bc55fbf6edc157539edcd42767564e963089b3f7b2e8627991efbc4421346"
     end
   end
 
